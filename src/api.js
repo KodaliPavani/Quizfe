@@ -1,8 +1,9 @@
 import axios from "axios";
 
+const BASE_URL = "http://backend:9096";
 
-const USER_API_URL = "http://localhost:9096/api/users";
-const QUIZ_API_URL = "http://localhost:9096/api/quizzes";
+const USER_API_URL = `${BASE_URL}/api/users`;
+const QUIZ_API_URL = `${BASE_URL}/api/quizzes`;
 
 /* ---------------- USER APIs ---------------- */
 
